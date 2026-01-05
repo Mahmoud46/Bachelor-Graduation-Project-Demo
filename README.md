@@ -44,6 +44,6 @@ For additional details about the project, [please click here!](https://mahmoud46
 
 ```bash
 git clone https://github.com/Mahmoud46/Bachelor-Graduation-Project-Demo.git
-cd gp
+cd Bachelor-Graduation-Project-Demo
 flask run
 ```
