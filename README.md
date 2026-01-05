@@ -43,7 +43,7 @@ For additional details about the project, [please click here!](https://mahmoud46
 ### Run
 
 ```bash
-git clone https://github.com/Mahmoud46/gp.git
+git clone https://github.com/Mahmoud46/Bachelor-Graduation-Project-Demo.git
 cd gp
-python run.py
+flask run
 ```
