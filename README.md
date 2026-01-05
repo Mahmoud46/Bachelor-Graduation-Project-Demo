@@ -1,44 +1,136 @@
-<p align="center"><img src="static\imgs\icons\name.svg" width=200></p>
+# Nexira – Hospital Administration Decision Support System
 
-<h1 align="center">Management Support to Hospital Administration</h1>
+Nexira is a comprehensive **hospital management and decision-support platform** designed to assist healthcare administrators in improving operational efficiency, reducing patient waiting times, and enhancing overall service quality. Developed as a **graduation project** at the **Department of Systems and Biomedical Engineering, Faculty of Engineering, Cairo University**, Nexira applies engineering, analytical, and simulation techniques to real-world healthcare challenges.
 
-<p align="center"><img src="static\videos\nexira_video.gif"></p>
+The system transforms hospital operational data into **actionable insights** using statistical analysis, discrete-event simulations, and performance evaluation tools, enabling administrators to make **data-driven decisions** that optimize hospital operations.
 
-<p align="center"><img src="static\imgs\images\nexira_poster.png"></p>
+---
 
-## Team
+## 🚀 Project Overview
 
-### Team Members
+Healthcare institutions face increasing pressure to improve patient care while efficiently managing resources. Nexira addresses this by providing administrators with tools to:
 
-- [Abdelrahman Ali](https://github.com/abdelrahman-ali123)
-- [Mahmoud Zakaria](https://github.com/Mahmoud46)
+- Monitor hospital performance indicators
+- Analyze patient flow and resource utilization
+- Simulate operational changes before implementation
+- Compare hospital performance and benchmark against best practices
 
-### Supervisor
+The platform acts as a **decision-support layer**, reducing uncertainty and enabling strategic, evidence-based planning.
 
-- prof. Mohammed Sherine
+---
 
-## Overview
+## ✨ Key Features
 
-This project aims to develop a comprehensive management support system tailored for hospital administration. The system is designed to enhance decision-making processes, improve operational efficiency, and optimize resource allocation within a hospital setting.
+### 📊 Performance Monitoring with Control Charts
 
-## Objectives
+- Track hospital metrics using statistical control charts
+- Early detection of abnormal variations and operational inefficiencies
+- Trend analysis for continuous performance improvement
 
-- Improve Decision-Making: Provide hospital administrators with accurate and timely information to make informed decisions.
-- Enhance Operational Efficiency: Streamline hospital operations to reduce waste and improve service delivery.
-- Optimize Resource Allocation: Ensure that hospital resources are used efficiently to meet patient needs effectively.
+### 🏥 Outpatient Department (OPD) Simulation
 
-## Features
+- Model patient flow in outpatient clinics
+- Analyze service times, queues, and resource utilization
+- Generate analytical reports automatically
 
-1.  Control Chart Utilization: Visualize quality metrics and performance indicators to monitor and improve hospital services.
-2.  Performance Reporting for Outpatient Departments: Generate detailed reports on the performance of outpatient departments, including patient wait times, treatment outcomes, and resource utilization.
-3.  Hospital Benefit Simulation: Simulate the impact of different management decisions on hospital benefits and operational efficiency.
-    1.  Booking System Simulation
-    2.  Additional Clinic Simulation
-4.  Comparative Analysis of Hospitals: Compare performance metrics, resource utilization, and patient outcomes across different hospitals to identify best practices and areas for improvement.
+### ⏱️ Waiting Time Reduction Analysis
 
-## Note
+- Simulate operational scenarios such as:
+  - Adding new clinics
+  - Modifying booking systems
+  - Reallocating staff and resources
+- Predict the impact of changes on patient waiting times
 
-For additional details about the project, [please click here!](https://mahmoud46.github.io/nexira/)
+### 📈 Hospital Comparison & Ranking
+
+- Compare multiple hospitals using efficiency analysis
+- Rank hospitals based on performance metrics
+- Identify operational strengths and weaknesses
+
+### 🧠 Data-Driven Decision Support
+
+- Combines statistical analysis, simulation, and efficiency evaluation
+- Supports evidence-based hospital management decisions
+
+---
+
+## 🎯 Objectives
+
+- Improve hospital operational efficiency
+- Reduce patient waiting times
+- Enhance healthcare service quality
+- Support hospital administrators with reliable decision-making tools
+- Provide a scalable framework adaptable to different healthcare institutions
+
+---
+
+## 👥 Target Users
+
+- Hospital administrators
+- Healthcare managers
+- Decision-makers and policymakers
+- Healthcare systems and operations analysts
+
+---
+
+## 🛠️ Technologies & Concepts
+
+- Healthcare systems engineering
+- Statistical process control
+- Discrete-event simulation
+- Performance and efficiency analysis
+- Data-driven decision support methodologies
+
+## 👨‍🎓 Project Team
+
+- **[Mahmoud Zakaria](https://github.com/Mahmoud46)** – Senior Biomedical Engineering Student
+- **[Abdelrahman Ali](https://github.com/abdelrahman-ali123)** – Senior Biomedical Engineering Student
+
+### 🎓 Supervisor
+
+- **Dr. Mohamed Sherine**, Faculty of Engineering – Cairo University
+
+---
+
+## 📌 Academic Context
+
+This project was developed as part of the graduation requirements for the **Systems and Biomedical Engineering program** at Cairo University, focusing on applying engineering and analytical techniques to real-world healthcare challenges.
+
+---
+
+**Nexira** — Empowering hospital administrators with data-driven healthcare decisions.
+
+- For additional details about the project, [please click here!](https://mahmoud46.github.io/nexira/)
+
+---
+
+## Demo
+
+![Nexira Demo](nexira.gif)
+
+---
+
+## 📂 Project Structure
+
+```bash
+project-root/
+├── controllers/
+├── services/
+├── db/
+|   ├── constants_tables.json
+|   ├── example_files.json
+|   └── users.json
+├── static/
+|   ├── imgs/
+|   ├── temps/
+|   ├── js/
+|   └── scss/
+├── templates/         # HTML templates
+├── app.py             # Flask application entry point
+└── requirements.txt   # Python dependencies
+```
+
+---
 
 ## 🚀 Getting Started
 
