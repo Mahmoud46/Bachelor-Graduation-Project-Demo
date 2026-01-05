@@ -1,7 +1,7 @@
 import json
 
 def check_user_db_by_email(email):
-    with open('./static/db/users.json', 'r') as file:
+    with open('./db/users.json', 'r') as file:
         data_loaded = json.load(file)
     
     for user in data_loaded:
@@ -10,7 +10,7 @@ def check_user_db_by_email(email):
     return False
 
 def get_user_data_by_email_and_password(email,password):
-    with open('./static/db/users.json', 'r') as file:
+    with open('./db/users.json', 'r') as file:
         data_loaded = json.load(file)
     
     for user in data_loaded:
@@ -37,7 +37,7 @@ def create_new_user(user_info,username):
 
 def get_data_storage():
     data_list=[]
-    with open('./static/db/users.json', 'r') as file:
+    with open('./db/users.json', 'r') as file:
         data_loaded = json.load(file)
 
     for user in data_loaded:
@@ -45,7 +45,7 @@ def get_data_storage():
     return data_list
 
 def update_data_storage(data_list):
-    with open('./static/db/users.json', 'w') as file:
+    with open('./db/users.json', 'w') as file:
         json.dump(data_list, file, indent=4)
 
 def get_user_data_by_username(username):

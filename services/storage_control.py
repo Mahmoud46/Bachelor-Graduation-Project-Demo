@@ -20,7 +20,7 @@ def add_file_to_example_files(file_info):
     
 def get_example_files_list():
     files_list=[]
-    with open('./static/db/example_files.json', 'r') as file:
+    with open('./db/example_files.json', 'r') as file:
         files_loaded = json.load(file)
 
     for file in files_loaded:
@@ -29,7 +29,7 @@ def get_example_files_list():
     return files_list
 
 def update_example_files(files_list):
-    with open('./static/db/example_files.json', 'w') as file:
+    with open('./db/example_files.json', 'w') as file:
         json.dump(files_list, file, indent=4)
         
 def get_example_file(file_num):
@@ -53,7 +53,7 @@ def delete_file(file_path):
 
 def get_constants_files_list():
     files_list=[]
-    with open('./static/db/constants_tables.json', 'r') as file:
+    with open('./db/constants_tables.json', 'r') as file:
         files_loaded = json.load(file)
 
     for file in files_loaded:

@@ -1,10 +1,10 @@
 import numpy as np
-from static.scripts.python.constants_table import ConstantTables
-from control_charts_tools import get_points_out_of_contols, get_points_with_pattern,get_horizonatl_line,ssd
-from storage_control import get_constants_tables
+from services.control_charts.constants_table import ConstantTables
+from services.control_charts.control_charts_tools import get_points_out_of_contols, get_points_with_pattern,get_horizonatl_line,ssd
+from services.storage_control import get_constants_tables
 
 constant_tables_list=get_constants_tables()
-const_table=ConstantTables(constant_tables_list[0],constant_tables_list[1])
+const_table=ConstantTables(constant_tables_list[0], constant_tables_list[1])
 
 
 class VariableControlChart:

@@ -1,6 +1,6 @@
 import pandas as pd
-from data_envelopment import DataEnvelopment
-from proposed_method_entities_comparison import ProposedMethod
+from services.entities_comparison.data_envelopment import DataEnvelopment
+from services.entities_comparison.proposed_method_entities_comparison import ProposedMethod
 
 class EntitiesComparison:
     def __init__(self,csv_input_file_path, csv_output_file_path):

@@ -1,7 +1,6 @@
 import pandas as pd
-from attributes_control_charts import AttributesControlCharts
-from variables_control_charts import VariableControlChart
-
+from services.control_charts.attributes_control_charts import AttributesControlCharts
+from services.control_charts.variables_control_charts import VariableControlChart
 
 
 # Check data if attribute data or (variable) numerical data, now we only work with csv files

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from random import random
-from scipy.stats import skew,kurtosis
+from scipy.stats import skew, kurtosis
 
 class OutpatientDepartment:
     def __init__(self,file_path) :

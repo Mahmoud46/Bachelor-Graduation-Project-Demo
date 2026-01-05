@@ -1,5 +1,5 @@
-from user_data_control import check_user_db_by_email,save_new_user
-from storage_control import generate_random_number_codes
+from services.user_data_control import check_user_db_by_email, save_new_user
+from services.storage_control import generate_random_number_codes
 
 
 def regestration_validation(reg_data):

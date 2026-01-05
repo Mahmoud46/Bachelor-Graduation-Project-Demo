@@ -1,5 +1,5 @@
 import numpy as np
-from control_charts_tools import get_points_out_of_contols, get_points_with_pattern,get_horizonatl_line
+from services.control_charts.control_charts_tools import get_points_out_of_contols, get_points_with_pattern,get_horizonatl_line
 
 class AttributesControlCharts:
     def __init__(self,data):
