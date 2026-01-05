@@ -33,17 +33,49 @@ This project aims to develop a comprehensive management support system tailored 
 2.  Performance Reporting for Outpatient Departments: Generate detailed reports on the performance of outpatient departments, including patient wait times, treatment outcomes, and resource utilization.
 3.  Hospital Benefit Simulation: Simulate the impact of different management decisions on hospital benefits and operational efficiency.
     1.  Booking System Simulation
-    2.  Additional Clini Simulation
+    2.  Additional Clinic Simulation
 4.  Comparative Analysis of Hospitals: Compare performance metrics, resource utilization, and patient outcomes across different hospitals to identify best practices and areas for improvement.
 
 ## Note
 
 For additional details about the project, [please click here!](https://mahmoud46.github.io/nexira/)
 
-### Run
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.9 or higher
+- pip (included with Python)
+
+### ⚙️ Installation & Setup
+
+1. Clone the repository
 
 ```bash
 git clone https://github.com/Mahmoud46/Bachelor-Graduation-Project-Demo.git
+```
+
+2. Navigate to the project directory
+
+```bash
 cd Bachelor-Graduation-Project-Demo
+```
+
+3. Create and activate a virtual environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate    # On macOS / Linux: source venv/bin/activate
+```
+
+3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Flask server
+
+```bash
 flask run
 ```
