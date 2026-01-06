@@ -608,7 +608,6 @@ function PlotChart(graph_cont, plot_data, plot_title, x_label, y_label) {
 	Plotly.newPlot(graph_cont, new_data, new_layout, config);
 }
 
-//
 function ActivateControlChartGraph(sec_type) {
 	document
 		.querySelector(
