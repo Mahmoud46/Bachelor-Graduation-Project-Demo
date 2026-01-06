@@ -106,7 +106,7 @@ This project was developed as part of the graduation requirements for the **Syst
 
 ## Demo
 
-![Nexira Demo](nexira.gif)
+![Nexira Demo](/static/videos/nexira.gif)
 
 ---
 
@@ -123,7 +123,15 @@ project-root/
 ├── static/
 |   ├── imgs/
 |   ├── temps/
+|   ├── videos/
 |   ├── js/
+|   |   ├── components/
+|   |   ├── pages/
+|   |   ├── plotlyjs/
+|   |   |   └── plotly-2.27.0.min.js
+|   |   ├── services/
+|   |   ├── ui/
+|   |   └── utils/
 |   └── scss/
 ├── templates/         # HTML templates
 ├── app.py             # Flask application entry point

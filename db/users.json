@@ -33,5 +33,26 @@
         "email": "mahmoud.z@gmail.com",
         "pswrd": "M123456z",
         "username": "mahmoud.zakaria.198172329"
+    },
+    {
+        "fst_name": "Ahmed",
+        "lst_name": "Adel",
+        "email": "ahmedadel@gmail.com",
+        "pswrd": "A123456a##",
+        "username": "ahmed.adel.191965590"
+    },
+    {
+        "fst_name": "Mohamed",
+        "lst_name": "Abdelrahman",
+        "email": "mohamedabdo@gmail.com",
+        "pswrd": "M123456a##",
+        "username": "mohamed.abdelrahman.192973608"
+    },
+    {
+        "fst_name": "Ali",
+        "lst_name": "Yasser",
+        "email": "aliyasser@gmail.com",
+        "pswrd": "A123456y##",
+        "username": "ali.yasser.192333666"
     }
 ]
