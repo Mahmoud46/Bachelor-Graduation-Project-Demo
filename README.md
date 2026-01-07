@@ -179,3 +179,10 @@ pip install -r requirements.txt
 ```bash
 flask run
 ```
+
+---
+
+## 📄 License & Copyright
+
+© **July 2024 – Nexira Project Team**  
+All rights reserved.
