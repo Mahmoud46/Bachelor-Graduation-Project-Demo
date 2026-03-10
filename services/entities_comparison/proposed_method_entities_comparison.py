@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class ProposedMethod:
     def __init__(self,data_input,data_output):
         self.data_ip=data_input

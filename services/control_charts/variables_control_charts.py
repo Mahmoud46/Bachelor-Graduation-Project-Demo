@@ -6,7 +6,6 @@ from services.storage_control import get_constants_tables
 constant_tables_list=get_constants_tables()
 const_table=ConstantTables(constant_tables_list[0], constant_tables_list[1])
 
-
 class VariableControlChart:
     def __init__(self,data):
         self.data=data

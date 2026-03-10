@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class ConstantTables:
     def __init__(self,const_table_01,const_table_02):
         self.const_table_01=const_table_01
