@@ -1,388 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./static/scss/style.css" />
-		<link
-			rel="shortcut icon"
-			href="./static/imgs/icons/fav_icon.svg"
-			type="image/x-icon"
-		/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/scss/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./static/assets/icons/fav_icon.svg"
+      type="image/x-icon"
+    />
 
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-		/>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
 
-		<title>Nexira</title>
-	</head>
-	<body>
-		<ul class="main_header_menu">
-			<li>
-				<img src="./static/imgs/icons/main_icon.svg" width="60px" alt="" />
-			</li>
-			<li>
-				<button class="login_btn">Login</button>
-				<button class="signup_btn">Sign Up</button>
-			</li>
-		</ul>
+    <title>Nexira</title>
+  </head>
+  <body>
+    <ul class="main_header_menu">
+      <li>
+        <img src="./static/assets/icons/main_icon.svg" width="60px" alt="" />
+      </li>
+      <li>
+        <button class="login_btn">Login</button>
+        <button class="signup_btn">Sign Up</button>
+      </li>
+    </ul>
 
-		<div class="login_signup_window">
-			<div class="login_signup_field">
-				<div class="login_field lg-su-field">
-					<h1>
-						Login
-						<span>Doesn't have an account yet? <a href="#">Sign Up</a></span>
-					</h1>
-					<form class="lg_form">
-						<div class="user_ip user_email">
-							<label for="user_email">Email Address</label>
-							<input
-								type="email"
-								name=""
-								id="user_email"
-								placeholder="you@example.com"
-								required
-							/>
-						</div>
-						<div class="user_ip user_password">
-							<label for="user_password"
-								>Password <a href="#">Forgot Password?</a></label
-							>
-							<input
-								type="password"
-								name=""
-								id="user_password"
-								placeholder="Enter 6 characters or more"
-								minlength="6"
-								required
-							/>
-						</div>
-						<button id="submit_login_btn" type="submit">Login</button>
-					</form>
-				</div>
-				<div class="signup_field lg-su-field">
-					<h1>
-						Sign Up
-						<span>Already have an account? <a href="#">Login</a></span>
-					</h1>
-					<form class="su_form">
-						<div class="user_name">
-							<div class="user_ip su_first_name">
-								<label for="su_fst_name">First Name</label>
-								<input type="text" name="" id="su_fst_name" required />
-							</div>
-							<div class="user_ip su_lst_name">
-								<label for="su_lst_name">Last Name</label>
-								<input type="text" name="" id="su_lst_name" required />
-							</div>
-						</div>
-						<div class="user_ip user_email">
-							<label for="su_user_email">Email Address</label>
-							<input
-								type="email"
-								name=""
-								id="su_user_email"
-								placeholder="you@example.com"
-								required
-							/>
-						</div>
-						<div class="user_ip user_password">
-							<label for="su_user_password">Password</label>
-							<input
-								type="password"
-								name=""
-								id="su_user_password"
-								placeholder="Enter 6 characters or more"
-								minlength="6"
-								required
-							/>
-						</div>
-						<button id="submit_signup_btn" type="submit">Sign Up</button>
-					</form>
-				</div>
-				<div class="reset_password_field lg-su-field">
-					<h1>Reset Account Password</h1>
-					<form class="rs_form">
-						<div class="user_ip user_email">
-							<label for="rs_user_email">Email Address</label>
-							<input
-								type="email"
-								name=""
-								id="rs_user_email"
-								placeholder="you@example.com"
-								required
-							/>
-						</div>
-						<div class="user_ip user_password">
-							<label for="new_user_password">New Password</label>
-							<input
-								type="password"
-								name=""
-								id="new_user_password"
-								placeholder="Enter 6 characters or more"
-								minlength="6"
-								required
-							/>
-						</div>
-						<button id="submit_reset_password_btn" type="submit">
-							Reset Password
-						</button>
-					</form>
-				</div>
+    <div class="login_signup_window">
+      <div class="login_signup_field">
+        <div class="login_field lg-su-field">
+          <h1>
+            Login
+            <span>Doesn't have an account yet? <a href="#">Sign Up</a></span>
+          </h1>
+          <form class="lg_form">
+            <div class="user_ip user_email">
+              <label for="user_email">Email Address</label>
+              <input
+                type="email"
+                name=""
+                id="user_email"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+            <div class="user_ip user_password">
+              <label for="user_password"
+                >Password <a href="#">Forgot Password?</a></label
+              >
+              <input
+                type="password"
+                name=""
+                id="user_password"
+                placeholder="Enter 6 characters or more"
+                minlength="6"
+                required
+              />
+            </div>
+            <button id="submit_login_btn" type="submit">Login</button>
+          </form>
+        </div>
+        <div class="signup_field lg-su-field">
+          <h1>
+            Sign Up
+            <span>Already have an account? <a href="#">Login</a></span>
+          </h1>
+          <form class="su_form">
+            <div class="user_name">
+              <div class="user_ip su_first_name">
+                <label for="su_first_name">First Name</label>
+                <input type="text" name="" id="su_first_name" required />
+              </div>
+              <div class="user_ip su_last_name">
+                <label for="su_last_name">Last Name</label>
+                <input type="text" name="" id="su_last_name" required />
+              </div>
+            </div>
+            <div class="user_ip user_email">
+              <label for="su_user_email">Email Address</label>
+              <input
+                type="email"
+                name=""
+                id="su_user_email"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+            <div class="user_ip user_password">
+              <label for="su_user_password">Password</label>
+              <input
+                type="password"
+                name=""
+                id="su_user_password"
+                placeholder="Enter 6 characters or more"
+                minlength="6"
+                required
+              />
+            </div>
+            <button id="submit_signup_btn" type="submit">Sign Up</button>
+          </form>
+        </div>
+        <div class="reset_password_field lg-su-field">
+          <h1>Reset Account Password</h1>
+          <form class="rs_form">
+            <div class="user_ip user_email">
+              <label for="rs_user_email">Email Address</label>
+              <input
+                type="email"
+                name=""
+                id="rs_user_email"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+            <div class="user_ip user_password">
+              <label for="new_user_password">New Password</label>
+              <input
+                type="password"
+                name=""
+                id="new_user_password"
+                placeholder="Enter 6 characters or more"
+                minlength="6"
+                required
+              />
+            </div>
+            <button id="submit_reset_password_btn" type="submit">
+              Reset Password
+            </button>
+          </form>
+        </div>
 
-				<button class="cls_lgn_su_win">
-					<span class="material-symbols-outlined"> close </span>
-				</button>
-			</div>
-		</div>
+        <button class="cls_lgn_su_win">
+          <span class="material-symbols-outlined"> close </span>
+        </button>
+      </div>
+    </div>
 
-		<section class="active hero_section">
-			<p>WELCOME TO</p>
-			<img src="./static/imgs/icons/name.svg" alt="" />
-			<h1>Management Support to Hospital Administration</h1>
-			<p class="project_stat">
-				Bachelor's Degree Graduation Project, Department of Systems and
-				Biomedical Engineering, Faculty of Engineering, Cairo University
-			</p>
-			<button class="learn_more_btn">
-				<span>Learn More</span
-				><span class="material-symbols-outlined"> arrow_outward </span>
-			</button>
-		</section>
+    <section class="active hero_section">
+      <p>WELCOME TO</p>
+      <img src="./static/assets/icons/name.svg" alt="" />
+      <h1>Management Support to Hospital Administration</h1>
+      <p class="project_stat">
+        Bachelor's Degree Graduation Project, Department of Systems and
+        Biomedical Engineering, Faculty of Engineering, Cairo University
+      </p>
+      <button class="learn_more_btn">
+        <span>Learn More</span
+        ><span class="material-symbols-outlined"> arrow_outward </span>
+      </button>
+    </section>
 
-		<section class="demo_section">
-			<div class="about_info">
-				<h1>
-					<img src="./static/imgs/icons/name.svg" alt="" />
-					<span>About</span>
-				</h1>
-				<p>
-					This project aims to develop a comprehensive management support system
-					tailored for hospital administration. The system is designed to
-					enhance decision-making processes, improve operational efficiency, and
-					optimize resource allocation within a hospital setting.
-				</p>
-			</div>
-			<div class="demo_display">
-				<div class="demo">
-					<div class="demo_cont">
-						<img class="screenshot" src="./static/videos/nexira.gif" />
-						<img src="./static/imgs/images/dell-xps-15.png" alt="" />
-					</div>
-				</div>
-			</div>
-			<div class="about_features">
-				<h1>
-					<img src="./static/imgs/icons/name.svg" alt="" />
-					<span>Features</span>
-				</h1>
-				<p>
-					Nexira offers several features to assist decision-makers in their
-					process. It includes tools like control charts for data analysis, a
-					simulation experience for outpatient departments, and the ability to
-					assess and compare multiple hospitals. These features help improve
-					decision-making and overall hospital management.
-				</p>
-				<ul class="features_list">
-					<li feature_window="control_charts">
-						<span class="material-symbols-outlined"> ssid_chart </span>
-						<span>Control Charts</span>
-					</li>
-					<li feature_window="outpatient_dep">
-						<span class="material-symbols-outlined"> outpatient_med </span>
-						<span>Outpatinet Department Simulation</span>
-					</li>
-					<li feature_window="sol_simulation">
-						<span class="material-symbols-outlined"> stress_management </span>
-						<span>Waiting Time Reduction Solutions Simulation</span>
-					</li>
-					<li feature_window="hospitals_assessment">
-						<span class="material-symbols-outlined"> home_health </span>
-						<span>Hospitals Assessment and Comparison</span>
-					</li>
-				</ul>
-			</div>
-			<div class="team_info">
-				<h1>
-					<img src="./static/imgs/icons/name.svg" alt="" />
-					<span>Team</span>
-				</h1>
-				<p>
-					All team members who participated in this project, whether students or
-					supervisors, are affiliated with the Faculty of Engineering, Cairo
-					University. The project was completed without external assistance from
-					any entity.
-				</p>
-				<ul class="team_list">
-					<li>
-						<span>Team Member</span>
+    <section class="demo_section">
+      <div class="about_info">
+        <h1>
+          <img src="./static/assets/icons/name.svg" alt="" />
+          <span>About</span>
+        </h1>
+        <p>
+          This project aims to develop a comprehensive management support system
+          tailored for hospital administration. The system is designed to
+          enhance decision-making processes, improve operational efficiency, and
+          optimize resource allocation within a hospital setting.
+        </p>
+      </div>
+      <div class="demo_display">
+        <div class="demo">
+          <div class="demo_cont">
+            <img class="screenshot" src="./static/assets/videos/nexira.gif" />
+            <img src="./static/assets/images/dell-xps-15.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="about_features">
+        <h1>
+          <img src="./static/assets/icons/name.svg" alt="" />
+          <span>Features</span>
+        </h1>
+        <p>
+          Nexira offers several features to assist decision-makers in their
+          process. It includes tools like control charts for data analysis, a
+          simulation experience for outpatient departments, and the ability to
+          assess and compare multiple hospitals. These features help improve
+          decision-making and overall hospital management.
+        </p>
+        <ul class="features_list">
+          <li feature_window="control_charts">
+            <span class="material-symbols-outlined"> ssid_chart </span>
+            <span>Control Charts</span>
+          </li>
+          <li feature_window="outpatient_dep">
+            <span class="material-symbols-outlined"> outpatient_med </span>
+            <span>Outpatinet Department Simulation</span>
+          </li>
+          <li feature_window="sol_simulation">
+            <span class="material-symbols-outlined"> stress_management </span>
+            <span>Waiting Time Reduction Solutions Simulation</span>
+          </li>
+          <li feature_window="hospitals_assessment">
+            <span class="material-symbols-outlined"> home_health </span>
+            <span>Hospitals Assessment and Comparison</span>
+          </li>
+        </ul>
+      </div>
+      <div class="team_info">
+        <h1>
+          <img src="./static/assets/icons/name.svg" alt="" />
+          <span>Team</span>
+        </h1>
+        <p>
+          All team members who participated in this project, whether students or
+          supervisors, are affiliated with the Faculty of Engineering, Cairo
+          University. The project was completed without external assistance from
+          any entity.
+        </p>
+        <ul class="team_list">
+          <li>
+            <span>Team Member</span>
 
-						<div class="img_cont">
-							<div class="img">
-								<img src="./static/imgs/team/1714602163163.jfif" alt="" />
-							</div>
-						</div>
-						<span>Mahmoud Zakaria</span>
-						<span
-							>Senior Biomedical Engineering student @ Faculty of Engineering -
-							Cairo University</span
-						>
-						<div class="personal_links">
-							<a
-								href="https://www.linkedin.com/in/mahmoud-zakaria-9a9a11304/"
-								target="_blank"
-								>LinkedIn</a
-							>,
-							<a href="https://github.com/Mahmoud46" target="_blank">GitHub</a>
-						</div>
-					</li>
-					<li>
-						<span>Team Member</span>
-						<div class="img_cont">
-							<div class="img">
-								<img src="./static/imgs/team/1720804459332.jfif" alt="" />
-							</div>
-						</div>
-						<span>Abdelrahman Ali</span>
-						<span
-							>Senior Biomedical Engineering student @ Faculty of Engineering -
-							Cairo University</span
-						>
-						<div class="personal_links">
-							<a
-								href="https://www.linkedin.com/in/abdelrahman-ali12/"
-								target="_blank"
-								>LinkedIn</a
-							>,
-							<a href="https://github.com/abdelrahman-ali123" target="_blank"
-								>GitHub</a
-							>
-						</div>
-					</li>
-					<li>
-						<span>Project Supervisor</span>
-						<div class="img_cont">
-							<div class="img">M</div>
-						</div>
-						<span><i>Prof.</i> Mohamed Sherine</span>
-						<span
-							>Professor @ Systems and Biomedical Engineering Department - Cairo
-							University</span
-						>
-					</li>
-				</ul>
-			</div>
-		</section>
+            <div class="img_cont">
+              <div class="img">
+                <img src="./static/assets/team/1714602163163.jfif" alt="" />
+              </div>
+            </div>
+            <span>Mahmoud Zakaria</span>
+            <span
+              >Senior Biomedical Engineering student @ Faculty of Engineering -
+              Cairo University</span
+            >
+            <div class="personal_links">
+              <a
+                href="https://www.linkedin.com/in/mahmoud-zakaria-9a9a11304/"
+                target="_blank"
+                >LinkedIn</a
+              >,
+              <a href="https://github.com/Mahmoud46" target="_blank">GitHub</a>
+            </div>
+          </li>
+          <li>
+            <span>Team Member</span>
+            <div class="img_cont">
+              <div class="img">
+                <img src="./static/assets/team/1720804459332.jfif" alt="" />
+              </div>
+            </div>
+            <span>Abdelrahman Ali</span>
+            <span
+              >Senior Biomedical Engineering student @ Faculty of Engineering -
+              Cairo University</span
+            >
+            <div class="personal_links">
+              <a
+                href="https://www.linkedin.com/in/abdelrahman-ali12/"
+                target="_blank"
+                >LinkedIn</a
+              >,
+              <a href="https://github.com/abdelrahman-ali123" target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </li>
+          <li>
+            <span>Project Supervisor</span>
+            <div class="img_cont">
+              <div class="img">M</div>
+            </div>
+            <span><i>Prof.</i> Mohamed Sherine</span>
+            <span
+              >Professor @ Systems and Biomedical Engineering Department - Cairo
+              University</span
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
 
-		<div class="lan_menu active">
-			<!-- <ul>
+    <div class="lan_menu active">
+      <!-- <ul>
 				<li title="Download paper" class="download_paper">
 					<span class="material-symbols-outlined"> file_save </span>
 				</li>
 			</ul> -->
-			<ul>
-				<li title="Review code" class="rev_code" style="display: none">
-					<span class="material-symbols-outlined"> code </span>
-				</li>
-			</ul>
-			<ul>
-				<li title="Back" class="close_about_section">
-					<span class="material-symbols-outlined"> power_settings_new </span>
-				</li>
-			</ul>
-		</div>
+      <ul>
+        <li title="Review code" class="rev_code" style="display: none">
+          <span class="material-symbols-outlined"> code </span>
+        </li>
+      </ul>
+      <ul>
+        <li title="Back" class="close_about_section">
+          <span class="material-symbols-outlined"> power_settings_new </span>
+        </li>
+      </ul>
+    </div>
 
-		<div class="features_detailes">
-			<div class="detailes_container">
-				<button class="cls_fes_det_win">
-					<span class="material-symbols-outlined"> close </span>
-				</button>
-				<div class="fes control_charts">
-					<h1>
-						<img src="./static/imgs/icons/name.svg" alt="" />
-						<span><i>Control</i>Charts</span>
-					</h1>
+    <div class="features_detailes">
+      <div class="detailes_container">
+        <button class="cls_fes_det_win">
+          <span class="material-symbols-outlined"> close </span>
+        </button>
+        <div class="fes control_charts">
+          <h1>
+            <img src="./static/assets/icons/name.svg" alt="" />
+            <span><i>Control</i>Charts</span>
+          </h1>
 
-					<div class="img_demo">
-						<img
-							src="./static/imgs/images/control_charts.png"
-							loading="lazy"
-							alt=""
-						/>
-					</div>
-					<p>
-						Nexira uses control charts to monitor your data and determine if
-						everything is running smoothly. We then provide you with a detailed
-						report, including analysis observations and easy-to-understand
-						graphs that illustrate all the control charts used.
-					</p>
-				</div>
-				<div class="fes outpatient_dep">
-					<h1>
-						<img src="./static/imgs/icons/name.svg" alt="" />
-						<span><i>Outpatinet Department</i>Analysis</span>
-					</h1>
+          <div class="img_demo">
+            <img
+              src="./static/assets/images/control_charts.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <p>
+            Nexira uses control charts to monitor your data and determine if
+            everything is running smoothly. We then provide you with a detailed
+            report, including analysis observations and easy-to-understand
+            graphs that illustrate all the control charts used.
+          </p>
+        </div>
+        <div class="fes outpatient_dep">
+          <h1>
+            <img src="./static/assets/icons/name.svg" alt="" />
+            <span><i>Outpatinet Department</i>Analysis</span>
+          </h1>
 
-					<div class="img_demo">
-						<img
-							src="./static/imgs/images/outpatient_simulation.png"
-							loading="lazy"
-							alt=""
-						/>
-					</div>
-					<p>
-						Nexira offers a comprehensive analysis of the Outpatient Department
-						using the uploaded data. Following this, it generates a detailed
-						report containing insights, key points, and observations.
-						Additionally, Nexira provides individual simulations for each
-						clinic, accompanied by full reports that include all key points and
-						analysis observations.
-					</p>
-				</div>
-				<div class="fes sol_simulation">
-					<h1>
-						<img src="./static/imgs/icons/name.svg" alt="" />
-						<span><i>Waiting Time Reduction</i>Solutions</span>
-					</h1>
+          <div class="img_demo">
+            <img
+              src="./static/assets/images/outpatient_simulation.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <p>
+            Nexira offers a comprehensive analysis of the Outpatient Department
+            using the uploaded data. Following this, it generates a detailed
+            report containing insights, key points, and observations.
+            Additionally, Nexira provides individual simulations for each
+            clinic, accompanied by full reports that include all key points and
+            analysis observations.
+          </p>
+        </div>
+        <div class="fes sol_simulation">
+          <h1>
+            <img src="./static/assets/icons/name.svg" alt="" />
+            <span><i>Waiting Time Reduction</i>Solutions</span>
+          </h1>
 
-					<div class="img_demo">
-						<img src="./static/imgs/images/solutions_simulation.png" alt="" />
-					</div>
-					<p>
-						Nexira offers two solutions to reduce patient waiting times in
-						clinics: implementing a booking system and establishing a new
-						clinic. It provides simulations for each solution, predicting and
-						visualizing their impact on reducing waiting times.
-					</p>
-				</div>
-				<div class="fes hospitals_assessment">
-					<h1>
-						<img src="./static/imgs/icons/name.svg" alt="" />
-						<span><i>Hospitals Comparison and </i>Assessment</span>
-					</h1>
+          <div class="img_demo">
+            <img src="./static/assets/images/solutions_simulation.png" alt="" />
+          </div>
+          <p>
+            Nexira offers two solutions to reduce patient waiting times in
+            clinics: implementing a booking system and establishing a new
+            clinic. It provides simulations for each solution, predicting and
+            visualizing their impact on reducing waiting times.
+          </p>
+        </div>
+        <div class="fes hospitals_assessment">
+          <h1>
+            <img src="./static/assets/icons/name.svg" alt="" />
+            <span><i>Hospitals Comparison and </i>Assessment</span>
+          </h1>
 
-					<div class="img_demo">
-						<img src="./static/imgs/images/hospital_comparisn.png" alt="" />
-					</div>
-					<p>
-						Nexira uses two methods to analyze hospital input/output data.
-						First, the ordering method, which primarily relies on normalization,
-						ranks hospitals based on their mean and consistency (standard
-						deviation). Next, Data Envelopment Analysis (DEA) is applied to
-						determine each hospital's efficiency. Nexira then visualizes the
-						rankings and highlights any inefficient hospitals, providing a
-						summary report that clarifies all analysis insights.
-					</p>
-				</div>
-			</div>
-		</div>
+          <div class="img_demo">
+            <img src="./static/assets/images/hospital_comparisn.png" alt="" />
+          </div>
+          <p>
+            Nexira uses two methods to analyze hospital input/output data.
+            First, the ordering method, which primarily relies on normalization,
+            ranks hospitals based on their mean and consistency (standard
+            deviation). Next, Data Envelopment Analysis (DEA) is applied to
+            determine each hospital's efficiency. Nexira then visualizes the
+            rankings and highlights any inefficient hospitals, providing a
+            summary report that clarifies all analysis insights.
+          </p>
+        </div>
+      </div>
+    </div>
 
-		<div class="loader">
-			<img src="./static/imgs/icons/fav_icon.svg" alt="" />
-		</div>
+    <div class="loader">
+      <img src="./static/assets/icons/fav_icon.svg" alt="" />
+    </div>
 
-		<script src="./static/js/pages/landing.js"></script>
-	</body>
+    <script type="module" src="./static/js/pages/home.js"></script>
+  </body>
 </html>

@@ -106,7 +106,7 @@ This project was developed as part of the graduation requirements for the **Syst
 
 ## Demo
 
-![Nexira Demo](/static/videos/nexira.gif)
+![Nexira Demo](/static/assets/videos/nexira.gif)
 
 ---
 
@@ -114,20 +114,25 @@ This project was developed as part of the graduation requirements for the **Syst
 
 ```bash
 project-root/
+├── config/
 ├── controllers/
+├── middlewares/
+├── models/
+|   └── User.py
+├── routes/
 ├── services/
+├── utils/
 ├── db/
+|   ├── upload                # Store the uploaded files
 |   ├── constants_tables.json
 |   ├── example_files.json
-|   └── users.json
+|   └── app.db                # Store the users data, the path of the database is stored in the .env file as DATABASE_URL
 ├── static/
-|   ├── imgs/
-|   ├── temps/
-|   ├── videos/
+|   ├── assets/
 |   ├── js/
 |   |   ├── components/
 |   |   ├── pages/
-|   |   ├── plotlyjs/
+|   |   ├── libs/
 |   |   |   └── plotly-2.27.0.min.js
 |   |   ├── services/
 |   |   ├── ui/
@@ -174,7 +179,14 @@ venv\Scripts\activate    # On macOS / Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run the Flask server
+4. Setup the `.env` file
+
+```bash
+JWT_SECRET={{ SECRET_KEY }}
+DATABASE_URL=./db/app.db
+```
+
+5. Run the Flask server
 
 ```bash
 flask run
